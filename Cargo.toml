@@ -1,7 +1,2 @@
-[package]
-name = "salsa_steps"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-salsa = "0.24.0"
+[workspace]
+members = ["step_by_step/*"]

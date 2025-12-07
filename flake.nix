@@ -53,6 +53,7 @@
         { pkgs }:
         {
           default = pkgs.mkShellNoCC {
+            name = "salsa-steps";
             packages = with pkgs; [
               rustToolchain
               openssl
