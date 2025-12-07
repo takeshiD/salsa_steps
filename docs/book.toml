@@ -1,0 +1,5 @@
+[book]
+authors = ["takeshid"]
+language = "ja"
+src = "src"
+title = "salsa step by step"
