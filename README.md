@@ -25,10 +25,6 @@ git clone https://github.com/takeshid/salsa_steps.git
 for example, run `01_input` like following
 ```bash
 cargo run --package input
-warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2024 which implies `resolver = "3"`
-note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
-note: to use the edition 2024 resolver, specify `workspace.resolver = "3"` in the workspace root's manifest
-note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
      Running `target/debug/input`
 Debug: SourceProgram {
