@@ -1,2 +1,3 @@
 [workspace]
 members = ["step_by_step/*"]
+resolver = "3"
