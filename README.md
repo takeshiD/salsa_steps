@@ -24,7 +24,7 @@ git clone https://github.com/takeshid/salsa_steps.git
 2. run samples
 for example, run `01_input` like following
 ```bash
-cargo run --package input
+$ cargo run --package input
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
      Running `target/debug/input`
 Debug: SourceProgram {
