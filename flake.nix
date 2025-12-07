@@ -2,7 +2,7 @@
   description = "A Nix-flake-based Rust development environment";
 
   inputs = {
-    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1"; # unstable Nixpkgs
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     fenix = {
       url = "https://flakehub.com/f/nix-community/fenix/0.1";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -63,6 +63,7 @@
               cargo-watch
               rust-analyzer
               mdbook
+              mdbook-mermaid
             ];
             env = {
               # Required by rust-analyzer

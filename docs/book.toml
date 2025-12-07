@@ -3,3 +3,13 @@ authors = ["takeshid"]
 language = "ja"
 src = "src"
 title = "salsa step by step"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
